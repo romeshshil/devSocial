@@ -1,3 +1,4 @@
 {
-    "mongoDBURI": "mongodb+srv://romesh:romesh123@devsocial-9fkmd.mongodb.net/test?retryWrites=true&w=majority"
+    "mongoDBURI": "mongodb+srv://romesh:romesh123@devsocial-9fkmd.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "myJsonSecret"
 }
