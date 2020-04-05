@@ -64,10 +64,10 @@ exports.createOrUpdateProfile = async(req, res) => {
     // Build social object and add to profileFields
     const socialfields = { youtube, twitter, instagram, linkedin, facebook };
 
-    for (const [key, value] of Object.entries(socialfields)) {
-        if (value.length > 0)
-            socialfields[key] = normalize(value, { forceHttps: true });
-    }
+    // for (const [key, value] of Object.entries(socialfields)) {
+    //     if (value.length > 0)
+    //         socialfields[key] = normalize(value, { forceHttps: true });
+    // }
     profileFields.social = socialfields;
 
     try {

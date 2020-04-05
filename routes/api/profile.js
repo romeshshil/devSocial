@@ -32,13 +32,10 @@ router.get('/user/:user_id', profileController.getProfilebyUserID);
 // @access   Private
 router.delete('/', auth, profileController.deleteProfile);
 
-
 // @route    PUT api/profile/experience
 // @desc     Add profile experience
 // @access   Private
 router.put('/experience', [auth, profileValidator.addExperience], profileController.addProfileExperice);
-
-
 
 // @route    DELETE api/profile/experience/:exp_id
 // @desc     Delete experience from profile
