@@ -1,4 +1,5 @@
 {
     "mongoDBURI": "mongodb+srv://romesh:romesh123@devsocial-9fkmd.mongodb.net/test?retryWrites=true&w=majority",
-    "jwtSecret": "myJsonSecret"
+    "jwtSecret": "myJsonSecret",
+    "githubToken": "05ed9043e865e64f95cd275d8b9899aaa297f6b2"
 }
